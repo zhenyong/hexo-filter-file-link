@@ -1,7 +1,7 @@
 {
   "name": "hexo-filter-file-link",
-  "version": "1.0.0",
-  "description": "make convenient for linking of local posted file",
+  "version": "1.0.1",
+  "description": "make convenient to link local posted file",
   "main": "index.js",
   "scripts": {
     "build": "rollup src/main.js --output index.js --format cjs"
