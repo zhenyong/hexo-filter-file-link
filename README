@@ -42,3 +42,9 @@ blublublue, this is page [C](http://yoursite.com/c)
 ```
 
 This is a real url which capturing during `before_post_render` event
+
+## TODO
+
+- [ ] unit test
+- [ ] any official alternative ways ?
+- [ ] `file://` should be configurable
