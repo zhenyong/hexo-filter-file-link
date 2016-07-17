@@ -1,6 +1,6 @@
 {
   "name": "hexo-filter-file-link",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "make convenient to link local posted file",
   "main": "index.js",
   "scripts": {
