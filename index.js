@@ -57,14 +57,14 @@ var processContent = (data) => {
 function process(data) {
   // 只对本地文章处理
   if (data.layout === 'post') {
+    add(path.basename(data.full_source), data.permalink)
     processContent(data)
-    add(path.basename(data.asset_dir), data.permalink)
   }
 }
 
 function verifyComplete() {
   var names = getWatchingNames()
-  if (names) {
+  if (names.length) {
     console.log('file:// 匹配不到下列文章：' + names.join(', '))
   }
 }

@@ -26,8 +26,8 @@ var processContent = (data) => {
 export function process(data) {
   // 只对本地文章处理
   if (data.layout === 'post') {
+    addLink(path.basename(data.full_source), data.permalink)
     processContent(data)
-    addLink(path.basename(data.asset_dir), data.permalink)
   }
 }
 
